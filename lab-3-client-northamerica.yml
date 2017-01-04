@@ -1,1 +1,3 @@
-lucky-word: NorthAmerica
+# lab-3-client.yml
+---
+lucky-word: North America
