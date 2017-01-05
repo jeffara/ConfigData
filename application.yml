@@ -7,24 +7,34 @@ eureka:
 ---
 spring:
   profiles: subject
+  application:
+    name: lab-5-word-server-subject
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
+  application:
+    name: lab-5-word-server-verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+  application:
+    name: lab-5-word-server-article
 words: a,the
 
 ---
 spring:
   profiles: adjective
+  application:
+    name: lab-5-word-server-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+  application:
+    name: lab-5-word-server-noun
 words: boat,book,vote,seat,backpack,partition,groundhog
