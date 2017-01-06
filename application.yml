@@ -43,5 +43,5 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 spring:
   profiles: noun-hard-coded
   application:
-    name: word-server-noun-hard-coded
+    name: word-server-noun
 words: icicle,refrigerator,blizzard,snowball
